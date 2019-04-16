@@ -14,8 +14,8 @@ class MyComparator implements Comparator<Integer> {
 		 * 
 		 * } else { return 0; }
 		 */
-		
-		//this is ternary operator we use below lines
+
+		// this is ternary operator we use below lines
 		return (i1 > i2) ? -1 : (i1 < i2) ? +1 : 0;
 	}
 
@@ -34,12 +34,12 @@ public class SortingListArray {
 		l.add(30);
 		l.add(10);
 		l.add(5);
-
+		System.out.println("i am pawan");
 		System.out.println("Before Sorting order:       " + l);
-		
+
 		Collections.sort(l);
 		System.out.println("After Accending Sort order: " + l);
-		
+
 		Collections.sort(l, new MyComparator());
 		System.out.println("After Decending Sort order: " + l);
 
