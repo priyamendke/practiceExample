@@ -2,9 +2,16 @@ package com.app.Example;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
-public class CollectionArrya {
+public class CollectionArrya  {
+	
+	
+	
+	
+	//sort.collection
+	//return c;
 	public static void main(String args[]) {
 //		String a[] = { "P", "A", "W" };
 //		String b[] = { "A", "N" };
@@ -15,5 +22,6 @@ public class CollectionArrya {
 		list.addAll(Arrays.asList(b));
 		Object[] c = list.toArray();
 		System.out.println(Arrays.toString(c));
+		
 	}
 }

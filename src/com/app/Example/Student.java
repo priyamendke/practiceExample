@@ -1,4 +1,4 @@
-package com.app.Example;
+/*package com.app.Example;
 
 import java.util.function.*;
 import java.util.*;
@@ -49,11 +49,12 @@ class Test {
 	}
 
 	public static void populate(ArrayList<Student> l) {
-		/*l.add("pawan", 1005);
+		l.add("pawan", 1005);
 		l.add(new Student("Sunny", 100));
 		l.add(new Student("Bunny", 65));
 		l.add(new Student("Chinny", 55));
 		l.add(new Student("Vinny", 45));
-		l.add(new Student("Pinny", 25));*/
+		l.add(new Student("Pinny", 25));
 	}
 }
+*/
