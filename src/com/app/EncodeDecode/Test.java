@@ -7,7 +7,7 @@ public class Test {
 	public static void main(String[] args) {
 		String s = "Welcome to Pawan Home";
 		System.out.println("Real String          :-" + s);
-		
+
 		byte[] a = s.getBytes();
 		byte[] b = Base64.encodeBase64(a);
 		String s1 = new String(b);
